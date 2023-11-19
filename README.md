@@ -64,3 +64,9 @@ docker-compose up -d  postgres_slave
 ![Рис. 6](https://drive.google.com/drive/u/0/folders/10fWRzcqD0aamTqq7nNNWq93HOQ63jSpH)
 
 ** указанные выше действия собраны в docker-init.sh
+
+### GVM
+Скрипт для создания view и посчета GVM в файле gvm_view.sql
+
+Вот что получилось на моих тестовых данных
+![Рис. 7](https://drive.google.com/drive/folders/10fWRzcqD0aamTqq7nNNWq93HOQ63jSpH)
