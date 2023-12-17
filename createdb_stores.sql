@@ -58,5 +58,5 @@ CREATE TABLE public.purchase_items (
   "product_id"          BIGINT NOT NULL REFERENCES public.products("product_id"),
   "purchase_id"         BIGINT NOT NULL REFERENCES public.purchases("purchase_id"),
   "product_count"       BIGINT NOT NULL,
-  "pruduct_price"       NUMERIC(9, 2) NOT NULL
+  "product_price"       NUMERIC(9, 2) NOT NULL
 );
