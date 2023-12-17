@@ -65,8 +65,23 @@ docker-compose up -d  postgres_slave
 
 ** указанные выше действия собраны в docker-init.sh
 
-### GVM
-Скрипт для создания view и посчета GVM в файле gvm_view.sql
+### GMV
+Скрипт для создания view и посчета GMV в файле gmv_view.sql
 
 Вот что получилось на моих тестовых данных
 ![Рис. 7](https://drive.google.com/drive/folders/10fWRzcqD0aamTqq7nNNWq93HOQ63jSpH)
+
+# Домашнее задание №4
+
+В качестве BI-инструмента поднимается Metabase, так как он очень простой и наглядный.
+
+```
+docker-compose up -d metabase
+```
+
+Для создания дашбордов были сгенерированы витрины, аналогичные тем, что должны быть получены в дз3. Они сохранены в папку data_example. Как генерируются можно посмотреть в файле generate_table.ipynb.\
+Подключение к postgres_master.
+
+PS: Так как я не очень поняла описание витрины по клиентам, создала ее так, как видела. Если это неправильно, надеюсь, будет возможность переделать.
+
+Видео и фото материалы загружены в папку https://drive.google.com/drive/folders/10fWRzcqD0aamTqq7nNNWq93HOQ63jSpH?usp=sharing
